@@ -1,4 +1,4 @@
-# xmlrpc multi request
+# WP Multi-User Bruteforce
 Python 3 script for bruteforcing multiple Wordpress users using only one request per password.
 
 <img src="xmlrpc.png" alt="basic usage" width="600"/>
@@ -34,7 +34,7 @@ Then, it's probably **vulnerable**.
 
 ```
 pip install requests
-curl {link} | tee xmlrpc.py 
+curl https://raw.githubusercontent.com/entr0pie/xmlrpc-multi-request/main/xmlrpc.py | tee xmlrpc.py 
 ```
 
 ## Usage
@@ -44,12 +44,12 @@ curl {link} | tee xmlrpc.py
 python3 xmlrpc.py --target=https://your-blog.com --users admin,editor,reader
 ```
 
-### Setting an specific wordlist:
+### Setting an wordlist:
 ```
 python3 xmlrpc.py --target=https://your-blog.com --users admin,editor,reader --wordlist=my_wordlist.txt
 ```
 
-### Start the bruteforce with an word inside the wordlist:
+### Start the bruteforce with an specific word inside the wordlist:
 ```
 python3 xmlrpc.py --target=https://your-blog.com --users admin,editor,reader --wordlist=my_wordlist.txt --word=super_secure_password
 ```
