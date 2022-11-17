@@ -53,7 +53,7 @@ curl https://raw.githubusercontent.com/entr0pie/xmlrpc-multi-request/main/xmlrpc
 ## Usage
 
 
-### Basic Usage:
+### Using the default wordlist (rockyou.txt)
 
 
 ```
