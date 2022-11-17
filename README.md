@@ -38,7 +38,7 @@ See if the response is an XML with all functionalities available, like:
 ```
 
 
-If yes, then it's probably vulnerable.
+If yes, it's probably vulnerable.
 
 
 ## Installation
