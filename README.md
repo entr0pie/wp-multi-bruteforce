@@ -17,7 +17,8 @@ Run this command, replacing `wordpress-blog.com` with your website:
 
 
 ```
-curl -d "<methodCall><methodName>system.listMethods</methodName><params></params></methodCall>" -X POST http://wordpress-blog.com/xmlrpc.php
+YOURBLOG=http://your-blog.com/xmlrpc.php
+curl -d "<methodCall><methodName>system.listMethods</methodName><params></params></methodCall>" -X POST $YOURBLOG
 ``` 
 
 See if the response is an XML with all functionalities available, like: 
