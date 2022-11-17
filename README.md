@@ -1,6 +1,9 @@
 # xmlrpc multi request
 Python 3 script for bruteforcing multiple Wordpress users using only one request per password.
 
+<img src="xmlrpc.png" alt="basic usage" width="600"/>
+
+
 ## How does it work?
 The [Hacktrick's Wordpress Pentesting Guide](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/wordpress#xml-rpc) mentions that, if xmlrpc.php is enabled, Bruteforcing and DoS attacks can be used by abusing the system functionalities, including trying multiple users with **only one request**, using the `system.multicall` function (see [here](https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FILyTlmNzv1D9YhHQAJo2%2Fimage.png?alt=media&token=5aa88cc4-baa0-4e54-87c1-2cc31203199d)).
 
