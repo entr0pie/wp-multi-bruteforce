@@ -87,8 +87,8 @@ By default, xmlrpc.py saves in the `config.json` the last session:
 {
     "host":"http://your-blog.com/xmlrpc.php",
     "users":"['admin', 'editor', 'reader']",
-    "WORDLIST":"/usr/share/wordlists/rockyou.txt",
-    "WORD":"mcfly",
+    "wordlist":"/usr/share/wordlists/rockyou.txt",
+    "word":"mcfly",
     "debug":"False"
 }
 ```
