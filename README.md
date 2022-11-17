@@ -13,7 +13,7 @@ The [Hacktrick's Wordpress Pentesting Guide](https://book.hacktricks.xyz/network
 ## Testing the vulnerability
 
 
-Run this command, replacing `wordpress-blog.com` with your website:
+Run this command, replacing `your-blog.com` with your website:
 
 
 ```
