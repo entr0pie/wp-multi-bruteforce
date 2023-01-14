@@ -20,7 +20,6 @@ parser.add_argument("--debug", action="store_true", help="Active debug mode")
 
 args = parser.parse_args()
 
-
 if args.config:
     print(f"\n* Opening {args.config} ...")
     file = open(args.config, 'r')
@@ -141,7 +140,7 @@ xml_file = open("xmlrpc.xml", 'r')
 
 error_msg = "Incorrect username or password."
   
-print("* Starting the bruteforce ...\n")
+print("! Starting the bruteforce ...\n")
 
 for passwd in passwords:
 
