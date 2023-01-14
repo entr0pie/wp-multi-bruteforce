@@ -6,6 +6,8 @@ import datetime
 
 from requests import post
 
+print("\nWP Multi-User Bruteforce by entr0pie / See https://github.com/entr0pie/wp-multi-bruteforce for more information.")
+
 parser = ArgumentParser(prog="xmlrpc.py",
                         description="Script for multiple bruteforcing in wordpress applications.",
                         epilog="See https://github.com/entr0pie/wp-multi-bruteforce for more information.")
