@@ -6,7 +6,9 @@ import datetime
 
 from requests import post
 
-parser = ArgumentParser()
+parser = ArgumentParser(prog="xmlrpc.py",
+                        description="Script for multiple bruteforcing in wordpress applications.",
+                        epilog="See https://github.com/entr0pie/wp-multi-bruteforce for more information.")
 
 parser.add_argument("--config", type=str, required=False, help="Use an config.json generated")
 
